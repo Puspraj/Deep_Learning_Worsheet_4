@@ -1,0 +1,79 @@
+Question Numbers, Correct Option, Answer
+
+1> a, Once we have the pooled feature map, this component transforms the information into
+      a vector. It's the input we need to get on with Artificial Neural Networks.
+
+2> b,  Little dependence on pre-processing, decreasing the needs of human effort 
+       developing its functionalities.
+
+3> a, True
+
+4> c, 2 – 3 – 1 – 5 – 4
+
+5> a, C=I-F+2P/S + 1
+
+6> b
+
+7> d, 13*13
+
+8> d
+
+ More than one correct Option:
+
+9> a,b
+
+10> a,b
+
+Subjective Answer:
+
+11>Answer:- A CNN architecture is formed by a stack of distinct layers that transform the
+            input volume into an output volume through a differentiable function. A few 
+            distinct types of layers are commonly used.
+
+            CNN architecture is inspired by the organization and functionality of the 
+            visual cortex and designed to mimic the connectivity pattern of neurons 
+            within the human brain. The neurons within a CNN are split into a 3-D 
+            structure, with each set of neurons analyzinga small region or feature of 
+            the image.
+
+12>Answer:- In deep learning, a convolutional neural network is a class of deep neural 
+            networks, most commonly applied to analyzing visual imagery. They are also
+            known as shift invariant or space invariant atrificial neural networks, 
+            based on their shared-weights architecture and translation invariance 
+            characteristics.
+
+            role of convolution in image processing is a simple mathematical operation 
+            which is fundamental to many common image processing operators. Convolution
+            provides a way of 'multiplying together' two arrays of numbers, generally of
+            different size, but of the same dimensionality, to produce a third array of 
+            numbers of the same dimensionality.
+
+13>Answer:- In Max Pooling we select the largest value in the selected matrix.
+            In Average Pooling we select the smallest value in the selected matrix.
+
+            Benefit of the pooling is that when we use the Max pooling then we got the 
+            best accuracy it means we get good image quality. When we use Average Pooling
+            then we get the average quality of the images.
+
+14>Answer:- Padding is the space that's inside the element between the element and the 
+            border. Padding goes around all four sides of the content and we can target
+            and change the padding for each side.
+            Is used if we want to not loss our data. For example i have 6*6 input 3 
+            fillter,1 strides the output of the shape is 4*4 but we want same shape of 
+            the output jutst like input shape then we 
+            padding.
+
+15>Answer:- Two basic type of layers in CNNs: 
+            i> Convolutional layers   ii> Downsampling layers
+   
+            i> Convolutional layers:- A convolutional layers contains units whose 
+                                      receptive fields cover a patch of the previous 
+                                      layer. The weight vector of such a unit is offen
+                                      called a filter.
+
+           ii> Downsampling layers: It contain units whose receptive fields cover patches
+                                    of previous convolutional layers. Such a unit typically
+                                    computes the average the activations of the units in 
+                                    its patch. This downsampling helps to correctly 
+                                    classify objects in visual scenes even when the objects
+                                    are shifted.
